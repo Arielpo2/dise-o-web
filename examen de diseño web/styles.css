@@ -1,0 +1,151 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f8f5f2;
+    margin: 0;
+    color: #1a1a2e;
+    text-align: center;
+}
+
+header {
+    background-color: #1a1a2e;
+    color: #fff;
+    padding: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+
+
+main {
+    
+    padding: 2em;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+.main2 {
+    
+    padding: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main label{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.product-list {
+    display: flex;
+    gap: 1em;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1em;
+    flex: 1;
+}
+/*botones*/
+.btn-buscar {
+    margin: 10px;
+    transition: ease 0.5s;
+    border-radius: 20px;
+}
+.btn-buscar:hover {
+    background-color: #0f3460;
+    transform: scale(1.15); /* Se agranda un poco */
+}
+.btn {
+    display: inline-block;
+    background-color: #16213e;
+    color: #fff;
+    margin: 20px;
+    padding: 0.8em 4em;
+    text-decoration: none;
+    border-radius: 16px;
+    transition:  0.3s ;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0f3460;
+    transform: scale(1.15); /* Se agranda un poco */
+}
+
+footer {
+    background-color: #1a1a2e;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+/*imagenes*/
+.img{
+    height: 200px;
+}
+
+/*menu animacion*/
+
+
+.menu a {
+    color: #e4e4e4;
+    margin: 0 1em;
+    padding: 10px;
+    transition: 0.5s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.menu a:hover {
+    color: #ffffff; /* Azul moderno */
+    transform: scale(1.50); /* Se agranda un poco */
+    
+}
+
+/*pago label*/
+.pago label{
+    gap: 1em;
+}
+/*busqueda de menu*/
+.busqueda input[type="text"] {
+    padding:  7px;
+    border: 1px solid #201f30;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+    
+    
+}
+
+.busqueda button {
+    background-color: #16213e;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.busqueda button:hover {
+    background-color: #2d478d;
+}
+/*pagar*/
+.pago{
+    display: flex;
+    flex-direction: column;
+    padding: 160px;
+}
+
+.carro{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
