@@ -44,3 +44,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+const toggleButton= document.getElementById ("modoOscuro");
+
+toggleButton.addEventListener("click", ()=>{
+    document.body.classList.toggle("modo-oscuro");
+
+    if (document.body.classList.contains("modo-oscuro")){
+        toggleButton.textContent="Modo Claro";
+    } else{
+        toggleButton.textContent="Modo Oscuro"
+    }
+});
+bueno
