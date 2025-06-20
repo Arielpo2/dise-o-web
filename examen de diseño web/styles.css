@@ -148,4 +148,20 @@ footer {
     margin-left: 30%;
     margin-right: 30%;
 }
+body.modo-oscuro {
+  background-color: #121212;
+  color: #eeeeee;
+  
+}
+
+body.modo-oscuro header,
+body.modo-oscuro footer {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.modo-oscuro nav.menu a {
+  color: #ffffff;
+  
+}
 
